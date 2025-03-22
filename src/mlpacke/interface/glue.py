@@ -114,6 +114,8 @@ class CatalogInterface:
             logger.warning(f"Erro ao buscar partições da tabela: {database}.{table}")
 
         cls._cache[f"{database}.{table}"] = partitions
+        if only_first_value:
+            return [item[0] for item in partitions]
         return partitions
 
     @classmethod
