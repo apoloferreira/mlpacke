@@ -1,0 +1,17 @@
+[project]
+name = "mlpacke"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Apolo-at-403082213880", email = "apolo.ferreira@datarain.com.br" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+mlpacke = "mlpacke:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
