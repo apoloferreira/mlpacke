@@ -4,10 +4,12 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [
-    { name = "Apolo-at-403082213880", email = "apolo.ferreira@datarain.com.br" }
+    { name = "Apolo-at-403082213880", email = "apoloferreirasantos@yahoo.com.br" }
 ]
-requires-python = ">=3.12"
-dependencies = []
+requires-python = ">=3.11.10"
+dependencies = [
+    "boto3>=1.37.18",
+]
 
 [project.scripts]
 mlpacke = "mlpacke:main"
