@@ -7,7 +7,9 @@ authors = [
     { name = "Apolo-at-403082213880", email = "apoloferreirasantos@yahoo.com.br" }
 ]
 requires-python = ">=3.11.10"
-dependencies = []
+dependencies = [
+    "boto3>=1.37.18",
+]
 
 [project.scripts]
 mlpacke = "mlpacke:main"
