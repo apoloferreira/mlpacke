@@ -91,7 +91,7 @@ class CatalogInterface:
                 return [item[0] for item in cls._cache[f"{database}.{table}"]]
             return cls._cache[f"{database}.{table}"]
 
-        next_token = None
+        next_token = ""
         partitions = []
         try:
             while True:
